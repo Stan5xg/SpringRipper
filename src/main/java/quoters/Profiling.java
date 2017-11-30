@@ -1,4 +1,8 @@
 package quoters;
 
-public @interface Profiling {
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+
+@Retention(RetentionPolicy.RUNTIME)
+@interface Profiling {
 }
