@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class CustomScopeRegistryBeanFactoryPostProcessor implements BeanFactoryPostProcessor{
 
-
+//another impoertant comment
     @Override
     public void postProcessBeanFactory(ConfigurableListableBeanFactory beanFactory) throws BeansException {
         beanFactory.registerScope("periodical",new PeriodicalScopeConfigurer());
